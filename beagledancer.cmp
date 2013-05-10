@@ -1,0 +1,87 @@
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Fri 10 May 2013 04:22:52 PM EST
+
+BeginCmp
+TimeStamp = /518C698C;
+Reference = C1;
+ValeurCmp = 1uf;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /518C697D;
+Reference = C2;
+ValeurCmp = 0.1uf;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /518C696E;
+Reference = C3;
+ValeurCmp = 18pf;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /518C69B4;
+Reference = C4;
+ValeurCmp = 18pf;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /518C699B;
+Reference = C5;
+ValeurCmp = 1uf;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /518C84D3;
+Reference = P9;
+ValeurCmp = BeagleBone;
+IdModule  = pin_array_12x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /518C6AC3;
+Reference = Q1;
+ValeurCmp = 12MHz;
+IdModule  = HC-49V;
+EndCmp
+
+BeginCmp
+TimeStamp = /518C69C3;
+Reference = R1;
+ValeurCmp = 33;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /518C69D2;
+Reference = R2;
+ValeurCmp = 33;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /518C9DFD;
+Reference = R3;
+ValeurCmp = 0;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /518C6E3D;
+Reference = U1;
+ValeurCmp = MAX3421;
+IdModule  = TQFP32;
+EndCmp
+
+BeginCmp
+TimeStamp = /518C69E1;
+Reference = USB1;
+ValeurCmp = USB-MINI-B;
+IdModule  = USB_MINI_B;
+EndCmp
+
+EndListe
