@@ -1,17 +1,17 @@
-eeschema (2013-mar-13)-testing  >> Creation date: Fri 10 May 2013 04:36:57 PM EST
+eeschema (2013-mar-13)-testing  >> Creation date: Sat 11 May 2013 06:23:19 PM EST
 #Cmp ( order = Reference )
 | C1         1uf         
 | C2         0.1uf       
 | C3         18pf        
 | C4         18pf        
 | C5         1uf         
+| J1         USB-MICRO-B 
+| JP1        JUMPER      
 | P9         BeagleBone  
-| Q1         12MHz       
 | R1         33          
 | R2         33          
-| R3         0           
 | U1         MAX3421     
-| USB1       USB-MINI-B  
+| X1         XTAL4PIN    
 #End Cmp
 
 #Cmp ( order = Value )
@@ -20,13 +20,13 @@ eeschema (2013-mar-13)-testing  >> Creation date: Fri 10 May 2013 04:36:57 PM ES
 | 0.1uf        C2        
 | 1uf          C1        
 | 1uf          C5        
+| USB-MICRO-B  J1        
+| JUMPER       JP1       
 | BeagleBone   P9        
-| 12MHz        Q1        
-| 0            R3        
 | 33           R1        
 | 33           R2        
 | MAX3421      U1        
-| USB-MINI-B   USB1      
+| XTAL4PIN     X1        
 #End Cmp
 
 #End List

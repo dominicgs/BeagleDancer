@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 11 May 2013 01:03:28 PM EST
+EESchema Schematic File Version 2  date Sat 11 May 2013 06:27:27 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,7 +30,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:beagledancer
-LIBS:hackrf
 LIBS:beagledancer-cache
 EELAYER 24 0
 EELAYER END
@@ -427,8 +426,6 @@ NoConn ~ 8950 3900
 NoConn ~ 8950 4100
 NoConn ~ 8950 4300
 NoConn ~ 8150 3900
-NoConn ~ 8150 3800
-NoConn ~ 8150 3700
 NoConn ~ 8150 3600
 NoConn ~ 8150 3500
 NoConn ~ 8150 4100
@@ -470,7 +467,6 @@ Wire Wire Line
 	3750 3750 3750 4200
 Wire Wire Line
 	3750 4200 5100 4200
-NoConn ~ 2550 3950
 $Comp
 L GSG-XTAL4PIN X1
 U 1 1 518DB545
@@ -484,4 +480,9 @@ F 3 "" H 4700 2200 60  0000 C CNN
 $EndComp
 NoConn ~ 4600 2500
 NoConn ~ 4800 2500
+Text GLabel 2550 3950 2    60   Input ~ 0
+USB_ID
+Text GLabel 8150 3800 0    60   Input ~ 0
+USB_ID
+NoConn ~ 8150 3700
 $EndSCHEMATC
