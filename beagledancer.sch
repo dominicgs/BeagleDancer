@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 11 May 2013 06:27:27 PM EST
+EESchema Schematic File Version 2  date Sun 12 May 2013 12:30:46 AM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -392,8 +392,6 @@ NoConn ~ 6800 3700
 NoConn ~ 6800 3800
 NoConn ~ 6800 3900
 NoConn ~ 6800 4000
-NoConn ~ 5100 4500
-NoConn ~ 5100 4400
 NoConn ~ 5100 3000
 NoConn ~ 5100 3100
 NoConn ~ 5100 3200
@@ -425,7 +423,6 @@ NoConn ~ 8950 3800
 NoConn ~ 8950 3900
 NoConn ~ 8950 4100
 NoConn ~ 8950 4300
-NoConn ~ 8150 3900
 NoConn ~ 8150 3600
 NoConn ~ 8150 3500
 NoConn ~ 8150 4100
@@ -482,7 +479,14 @@ NoConn ~ 4600 2500
 NoConn ~ 4800 2500
 Text GLabel 2550 3950 2    60   Input ~ 0
 USB_ID
-Text GLabel 8150 3800 0    60   Input ~ 0
+Text GLabel 8150 3700 0    60   Input ~ 0
 USB_ID
-NoConn ~ 8150 3700
+Text GLabel 8150 3800 0    60   Input ~ 0
+INT
+Text GLabel 5100 4400 0    60   Input ~ 0
+INT
+Text GLabel 5100 4500 0    60   Input ~ 0
+GPX
+Text GLabel 8150 3900 0    60   Input ~ 0
+GPX
 $EndSCHEMATC
