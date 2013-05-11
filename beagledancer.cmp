@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Fri 10 May 2013 04:22:52 PM EST
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Sat 11 May 2013 02:02:03 PM EST
 
 BeginCmp
 TimeStamp = /518C698C;
@@ -36,17 +36,24 @@ IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
+TimeStamp = /518D757C;
+Reference = J1;
+ValeurCmp = USB-MICRO-B;
+IdModule  = GSG-USB-MICROB-FCI-10103594;
+EndCmp
+
+BeginCmp
+TimeStamp = /518D74A5;
+Reference = JP1;
+ValeurCmp = JUMPER;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
 TimeStamp = /518C84D3;
 Reference = P9;
 ValeurCmp = BeagleBone;
 IdModule  = pin_array_12x2;
-EndCmp
-
-BeginCmp
-TimeStamp = /518C6AC3;
-Reference = Q1;
-ValeurCmp = 12MHz;
-IdModule  = HC-49V;
 EndCmp
 
 BeginCmp
@@ -64,13 +71,6 @@ IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
-TimeStamp = /518C9DFD;
-Reference = R3;
-ValeurCmp = 0;
-IdModule  = SM0603_Resistor;
-EndCmp
-
-BeginCmp
 TimeStamp = /518C6E3D;
 Reference = U1;
 ValeurCmp = MAX3421;
@@ -78,10 +78,10 @@ IdModule  = TQFP32;
 EndCmp
 
 BeginCmp
-TimeStamp = /518C69E1;
-Reference = USB1;
-ValeurCmp = USB-MINI-B;
-IdModule  = USB_MINI_B;
+TimeStamp = /518DB545;
+Reference = X1;
+ValeurCmp = XTAL4PIN;
+IdModule  = GSG-XTAL3.2x2.5mm;
 EndCmp
 
 EndListe

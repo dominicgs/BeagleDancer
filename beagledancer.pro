@@ -1,14 +1,9 @@
-update=Wed 08 May 2013 03:16:40 PM EST
+update=Sat 11 May 2013 10:30:02 AM EST
 version=1
-last_client=kicad
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+last_client=cvpcb
 [eeschema]
 version=1
-LibDir=
+LibDir=./lib
 NetFmtName=
 RptD_X=0
 RptD_Y=100
@@ -45,7 +40,7 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=max3421
+LibName31=beagledancer
 [pcbnew]
 version=1
 LastNetListRead=
@@ -66,7 +61,6 @@ DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
-LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -83,5 +77,12 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
+LibName17=beagledancer
+LibDir=./lib
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
