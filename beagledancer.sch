@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 12 May 2013 02:54:11 AM EST
+EESchema Schematic File Version 2  date Mon 13 May 2013 04:59:54 AM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "BeagleDancer"
-Date "11 may 2013"
+Date "12 may 2013"
 Rev ""
 Comp ""
 Comment1 "Copyright 2013 Dominic Spill"
@@ -59,23 +59,23 @@ $EndComp
 $Comp
 L C C2
 U 1 1 518C697D
-P 4100 3600
-F 0 "C2" H 4100 3700 40  0000 L CNN
-F 1 "0.1uf" H 4106 3515 40  0000 L CNN
-F 2 "~" H 4138 3450 30  0000 C CNN
-F 3 "~" H 4100 3600 60  0000 C CNN
-	1    4100 3600
+P 7450 3300
+F 0 "C2" H 7450 3400 40  0000 L CNN
+F 1 "0.1uf" H 7456 3215 40  0000 L CNN
+F 2 "~" H 7488 3150 30  0000 C CNN
+F 3 "~" H 7450 3300 60  0000 C CNN
+	1    7450 3300
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C1
 U 1 1 518C698C
-P 7450 3300
-F 0 "C1" H 7450 3400 40  0000 L CNN
-F 1 "1uf" H 7456 3215 40  0000 L CNN
-F 2 "~" H 7488 3150 30  0000 C CNN
-F 3 "~" H 7450 3300 60  0000 C CNN
-	1    7450 3300
+P 4100 3600
+F 0 "C1" H 4100 3700 40  0000 L CNN
+F 1 "1uf" H 4106 3515 40  0000 L CNN
+F 2 "~" H 4138 3450 30  0000 C CNN
+F 3 "~" H 4100 3600 60  0000 C CNN
+	1    4100 3600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -489,4 +489,18 @@ Text GLabel 5100 4500 0    60   Input ~ 0
 GPX
 Text GLabel 8150 3900 0    60   Input ~ 0
 GPX
+Text Label 4450 4000 0    60   ~ 0
+VBCOMP
+Text Label 4550 3900 0    60   ~ 0
+VCC
+Text Label 4400 3150 0    60   ~ 0
+XI
+Text Label 5000 3150 2    60   ~ 0
+XO
+Text Label 7350 4100 0    60   ~ 0
+RES
+Text Label 4600 4200 0    60   ~ 0
+D-
+Text Label 4600 4100 0    60   ~ 0
+D+
 $EndSCHEMATC
