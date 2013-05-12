@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 13 May 2013 04:59:54 AM EST
+EESchema Schematic File Version 2  date Mon 13 May 2013 06:51:31 AM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -122,10 +122,6 @@ F 3 "~" H 3400 3950 30  0000 C CNN
 	1    3400 3950
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2550 4050 2700 4050
-Wire Wire Line
-	2700 4050 2700 4600
 $Comp
 L GND #PWR01
 U 1 1 518C6CB3
@@ -148,12 +144,6 @@ F 3 "~" H 5950 3300 60  0000 C CNN
 	1    5950 3750
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	3850 4000 5100 4000
-Wire Wire Line
-	4250 4300 5100 4300
-Wire Wire Line
-	4250 4300 4250 4800
 $Comp
 L GND #PWR02
 U 1 1 518C6FE4
@@ -198,14 +188,6 @@ F 3 "" H 7450 3600 60  0000 C CNN
 	1    7450 3600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6800 3100 7450 3100
-Wire Wire Line
-	7450 3100 7450 3000
-Wire Wire Line
-	7050 3500 7050 3200
-Wire Wire Line
-	7050 3200 6800 3200
 $Comp
 L GND #PWR06
 U 1 1 518C789E
@@ -228,14 +210,6 @@ F 3 "" H 4100 3250 60  0000 C CNN
 	1    4100 3250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4300 3900 5100 3900
-Wire Wire Line
-	4300 3400 4300 3900
-Wire Wire Line
-	4300 3400 4100 3400
-Wire Wire Line
-	4100 3400 4100 3250
 $Comp
 L GND #PWR08
 U 1 1 518C81F5
@@ -247,8 +221,6 @@ F 3 "" H 9200 3350 60  0000 C CNN
 	1    9200 3350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9200 3000 9200 3350
 $Comp
 L +3.3V #PWR09
 U 1 1 518C8224
@@ -260,16 +232,12 @@ F 3 "" H 8050 3100 60  0000 C CNN
 	1    8050 3100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8150 3300 8050 3300
-Wire Wire Line
-	8050 3300 8050 3100
 Text GLabel 8950 4000 2    60   Input ~ 0
-SPI0_D1
+SPI_MOSI
 Text GLabel 8950 4200 2    60   Input ~ 0
-SPI0_SCLK
+SPI_SCLK
 Text GLabel 6800 4500 2    60   Input ~ 0
-SPI0_D1
+SPI_MOSI
 $Comp
 L CONN_12X2 P9
 U 1 1 518C84D3
@@ -282,7 +250,7 @@ F 3 "~" H 8550 3750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 6800 4200 2    60   Input ~ 0
-SPI0_SCLK
+SPI_SCLK
 $Comp
 L +5V #PWR010
 U 1 1 518C878E
@@ -294,18 +262,14 @@ F 3 "" H 7850 3100 60  0000 C CNN
 	1    7850 3100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7850 3100 7850 3400
-Wire Wire Line
-	7850 3400 8150 3400
 Text GLabel 8150 4000 0    60   Input ~ 0
-SPI0_CS0
+SPI_SS
 Text GLabel 6800 4300 2    60   Input ~ 0
-SPI0_CS0
+SPI_SS
 Text GLabel 8150 4200 0    60   Input ~ 0
-SPI0_D0
+SPI_MISO
 Text GLabel 6800 4400 2    60   Input ~ 0
-SPI0_D0
+SPI_MISO
 $Comp
 L GND #PWR011
 U 1 1 518C9D30
@@ -328,21 +292,6 @@ F 3 "" H 3450 2150 60  0000 C CNN
 	1    3450 2150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3850 2950 3850 4000
-Wire Wire Line
-	3000 2950 3850 2950
-Wire Wire Line
-	3000 2950 3000 3650
-Wire Wire Line
-	3000 3650 2550 3650
-Wire Wire Line
-	3450 3450 3450 3600
-Connection ~ 3450 2950
-Wire Wire Line
-	3450 2150 3450 2250
-Wire Wire Line
-	3450 2850 3450 3050
 $Comp
 L GND #PWR013
 U 1 1 518C97B7
@@ -365,24 +314,6 @@ F 3 "" H 5100 2900 60  0000 C CNN
 	1    5100 2900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5000 2200 5000 3700
-Wire Wire Line
-	5000 3700 5100 3700
-Wire Wire Line
-	4400 2200 4400 3800
-Wire Wire Line
-	4400 3800 5100 3800
-Wire Wire Line
-	4250 2400 4400 2400
-Connection ~ 4400 2400
-Wire Wire Line
-	5100 2400 5000 2400
-Connection ~ 5000 2400
-Wire Wire Line
-	8150 3200 8150 3000
-Wire Wire Line
-	8150 3000 9200 3000
 NoConn ~ 6800 3000
 NoConn ~ 6800 3300
 NoConn ~ 6800 3400
@@ -399,21 +330,6 @@ NoConn ~ 5100 3300
 NoConn ~ 5100 3400
 NoConn ~ 5100 3500
 NoConn ~ 5100 3600
-Wire Wire Line
-	4100 3800 4100 3900
-Wire Wire Line
-	5100 2800 5100 2900
-Wire Wire Line
-	4250 2800 4250 2900
-Wire Wire Line
-	7450 3500 7450 3600
-Wire Wire Line
-	6800 4100 7550 4100
-Wire Wire Line
-	7550 4100 7550 4300
-Wire Wire Line
-	7550 4300 8150 4300
-NoConn ~ 8950 3200
 NoConn ~ 8950 3300
 NoConn ~ 8950 3400
 NoConn ~ 8950 3500
@@ -448,22 +364,6 @@ F 3 "" H 2300 3850 60  0000 C CNN
 	1    2300 3850
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	5100 4100 3650 4100
-Wire Wire Line
-	3650 4100 3650 3950
-Wire Wire Line
-	3150 3750 2550 3750
-Wire Wire Line
-	2550 3850 3150 3850
-Wire Wire Line
-	3150 3850 3150 3950
-Wire Wire Line
-	3650 3750 3750 3750
-Wire Wire Line
-	3750 3750 3750 4200
-Wire Wire Line
-	3750 4200 5100 4200
 $Comp
 L GSG-XTAL4PIN X1
 U 1 1 518DB545
@@ -503,4 +403,226 @@ Text Label 4600 4200 0    60   ~ 0
 D-
 Text Label 4600 4100 0    60   ~ 0
 D+
+$Comp
+L CONN_12X2 Pi1
+U 1 1 518FF2C9
+P 8550 5300
+F 0 "Pi1" H 8550 5950 60  0000 C CNN
+F 1 "Raspberry Pi" V 8550 5300 50  0000 C CNN
+F 2 "~" H 8550 5300 60  0000 C CNN
+F 3 "~" H 8550 5300 60  0000 C CNN
+	1    8550 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR015
+U 1 1 518FF3AD
+P 9200 4650
+F 0 "#PWR015" H 9200 4740 20  0001 C CNN
+F 1 "+5V" H 9200 4740 30  0000 C CNN
+F 2 "" H 9200 4650 60  0000 C CNN
+F 3 "" H 9200 4650 60  0000 C CNN
+	1    9200 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR016
+U 1 1 518FF426
+P 9400 5400
+F 0 "#PWR016" H 9400 5400 30  0001 C CNN
+F 1 "GND" H 9400 5330 30  0001 C CNN
+F 2 "" H 9400 5400 60  0000 C CNN
+F 3 "" H 9400 5400 60  0000 C CNN
+	1    9400 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR017
+U 1 1 518FF435
+P 7500 5250
+F 0 "#PWR017" H 7500 5250 30  0001 C CNN
+F 1 "GND" H 7500 5180 30  0001 C CNN
+F 2 "" H 7500 5250 60  0000 C CNN
+F 3 "" H 7500 5250 60  0000 C CNN
+	1    7500 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR018
+U 1 1 518FF4F5
+P 8000 4700
+F 0 "#PWR018" H 8000 4660 30  0001 C CNN
+F 1 "+3.3V" H 8000 4810 30  0000 C CNN
+F 2 "" H 8000 4700 60  0000 C CNN
+F 3 "" H 8000 4700 60  0000 C CNN
+	1    8000 4700
+	1    0    0    -1  
+$EndComp
+Text GLabel 8950 5450 2    60   Input ~ 0
+GPX
+Text GLabel 8950 5550 2    60   Input ~ 0
+INT
+Text GLabel 8150 5850 0    60   Input ~ 0
+SPI_SCLK
+Text GLabel 8950 5850 2    60   Input ~ 0
+SPI_SS
+Text GLabel 8150 5750 0    60   Input ~ 0
+SPI_MISO
+Text GLabel 8150 5650 0    60   Input ~ 0
+SPI_MOSI
+$Comp
+L GND #PWR019
+U 1 1 518FF634
+P 9500 5850
+F 0 "#PWR019" H 9500 5850 30  0001 C CNN
+F 1 "GND" H 9500 5780 30  0001 C CNN
+F 2 "" H 9500 5850 60  0000 C CNN
+F 3 "" H 9500 5850 60  0000 C CNN
+	1    9500 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 4050 2700 4050
+Wire Wire Line
+	2700 4050 2700 4600
+Wire Wire Line
+	3850 4000 5100 4000
+Wire Wire Line
+	4250 4300 5100 4300
+Wire Wire Line
+	4250 4300 4250 4800
+Wire Wire Line
+	6800 3100 7450 3100
+Wire Wire Line
+	7450 3100 7450 3000
+Wire Wire Line
+	7050 3500 7050 3200
+Wire Wire Line
+	7050 3200 6800 3200
+Wire Wire Line
+	4300 3900 5100 3900
+Wire Wire Line
+	4300 3400 4300 3900
+Wire Wire Line
+	4300 3400 4100 3400
+Wire Wire Line
+	4100 3400 4100 3250
+Wire Wire Line
+	9200 3000 9200 3350
+Wire Wire Line
+	8150 3300 8050 3300
+Wire Wire Line
+	8050 3300 8050 3100
+Wire Wire Line
+	7850 3100 7850 3400
+Wire Wire Line
+	7850 3400 8150 3400
+Wire Wire Line
+	3850 2950 3850 4000
+Wire Wire Line
+	3000 2950 3850 2950
+Wire Wire Line
+	3000 2950 3000 3650
+Wire Wire Line
+	3000 3650 2550 3650
+Wire Wire Line
+	3450 3450 3450 3600
+Connection ~ 3450 2950
+Wire Wire Line
+	3450 2150 3450 2250
+Wire Wire Line
+	3450 2850 3450 3050
+Wire Wire Line
+	5000 2200 5000 3700
+Wire Wire Line
+	5000 3700 5100 3700
+Wire Wire Line
+	4400 2200 4400 3800
+Wire Wire Line
+	4400 3800 5100 3800
+Wire Wire Line
+	4250 2400 4400 2400
+Connection ~ 4400 2400
+Wire Wire Line
+	5100 2400 5000 2400
+Connection ~ 5000 2400
+Wire Wire Line
+	8150 3200 8150 3000
+Wire Wire Line
+	8150 3000 9200 3000
+Wire Wire Line
+	4100 3800 4100 3900
+Wire Wire Line
+	5100 2800 5100 2900
+Wire Wire Line
+	4250 2800 4250 2900
+Wire Wire Line
+	7450 3500 7450 3600
+Wire Wire Line
+	6800 4100 7550 4100
+Wire Wire Line
+	7550 4100 7550 4300
+Wire Wire Line
+	7550 4300 8150 4300
+Wire Wire Line
+	5100 4100 3650 4100
+Wire Wire Line
+	3650 4100 3650 3950
+Wire Wire Line
+	3150 3750 2550 3750
+Wire Wire Line
+	2550 3850 3150 3850
+Wire Wire Line
+	3150 3850 3150 3950
+Wire Wire Line
+	3650 3750 3750 3750
+Wire Wire Line
+	3750 3750 3750 4200
+Wire Wire Line
+	3750 4200 5100 4200
+Wire Wire Line
+	8950 4750 9200 4750
+Wire Wire Line
+	9200 4650 9200 4850
+Wire Wire Line
+	9200 4850 8950 4850
+Connection ~ 9200 4750
+Wire Wire Line
+	8950 5350 9400 5350
+Wire Wire Line
+	9400 4950 9400 5400
+Wire Wire Line
+	8950 4950 9400 4950
+Connection ~ 9400 5350
+NoConn ~ 8950 5050
+NoConn ~ 8950 5150
+NoConn ~ 8950 5250
+NoConn ~ 8950 5750
+NoConn ~ 8150 5350
+NoConn ~ 8150 5050
+NoConn ~ 8150 4950
+NoConn ~ 8150 4850
+Wire Wire Line
+	8950 5650 9500 5650
+Wire Wire Line
+	9500 5650 9500 5850
+NoConn ~ 8150 5550
+Wire Wire Line
+	8000 4700 8000 4750
+Wire Wire Line
+	8000 4750 8150 4750
+Text GLabel 8100 5250 0    60   Input ~ 0
+USB_ID
+Wire Wire Line
+	8150 5150 7500 5150
+Wire Wire Line
+	7500 5150 7500 5250
+Wire Wire Line
+	8150 5450 7350 5450
+Wire Wire Line
+	7350 5450 7350 4100
+Connection ~ 7350 4100
+Wire Wire Line
+	8950 3200 9200 3200
+Connection ~ 9200 3200
 $EndSCHEMATC

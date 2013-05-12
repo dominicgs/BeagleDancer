@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Sun 12 May 2013 01:20:26 PM EST
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Mon 13 May 2013 06:15:21 AM EST
 
 BeginCmp
 TimeStamp = /518C698C;
@@ -53,6 +53,13 @@ BeginCmp
 TimeStamp = /518C84D3;
 Reference = P9;
 ValeurCmp = BeagleBone;
+IdModule  = pin_array_12x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /518FF2C9;
+Reference = Pi1;
+ValeurCmp = Raspberry Pi;
 IdModule  = pin_array_12x2;
 EndCmp
 

@@ -1,4 +1,4 @@
-eeschema (2013-mar-13)-testing  >> Creation date: Sun 12 May 2013 03:00:14 AM EST
+eeschema (2013-mar-13)-testing  >> Creation date: Mon 13 May 2013 06:15:09 AM EST
 #Cmp ( order = Reference )
 | C1         1uf         
 | C2         0.1uf       
@@ -8,6 +8,7 @@ eeschema (2013-mar-13)-testing  >> Creation date: Sun 12 May 2013 03:00:14 AM ES
 | J1         USB-MICRO-B 
 | JP1        JUMPER      
 | P9         BeagleBone  
+| Pi1        Raspberry Pi
 | R1         33          
 | R2         33          
 | U1         MAX3421     
@@ -23,6 +24,7 @@ eeschema (2013-mar-13)-testing  >> Creation date: Sun 12 May 2013 03:00:14 AM ES
 | USB-MICRO-B  J1        
 | JUMPER       JP1       
 | BeagleBone   P9        
+| Raspberry Pi Pi1       
 | 33           R1        
 | 33           R2        
 | MAX3421      U1        
