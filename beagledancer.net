@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/dominicgs/CS/goodfet/Beagle/beagledancer.sch)
-    (date "Sun 12 May 2013 12:30:54 AM EST")
+    (date "Sun 12 May 2013 01:20:44 PM EST")
     (tool "eeschema (2013-mar-13)-testing"))
   (components
     (comp (ref C3)

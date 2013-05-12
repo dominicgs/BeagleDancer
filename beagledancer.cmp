@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Sat 11 May 2013 02:02:03 PM EST
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Sun 12 May 2013 01:20:26 PM EST
 
 BeginCmp
 TimeStamp = /518C698C;
@@ -74,7 +74,7 @@ BeginCmp
 TimeStamp = /518C6E3D;
 Reference = U1;
 ValeurCmp = MAX3421;
-IdModule  = TQFP32;
+IdModule  = MAX3421;
 EndCmp
 
 BeginCmp
