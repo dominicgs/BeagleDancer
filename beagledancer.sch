@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 13 May 2013 06:51:31 AM EST
+EESchema Schematic File Version 2  date Tue 14 May 2013 12:50:11 AM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "BeagleDancer"
-Date "12 may 2013"
+Date "13 may 2013"
 Rev ""
 Comp ""
 Comment1 "Copyright 2013 Dominic Spill"
@@ -213,12 +213,12 @@ $EndComp
 $Comp
 L GND #PWR08
 U 1 1 518C81F5
-P 9200 3350
-F 0 "#PWR08" H 9200 3350 30  0001 C CNN
-F 1 "GND" H 9200 3280 30  0001 C CNN
-F 2 "" H 9200 3350 60  0000 C CNN
-F 3 "" H 9200 3350 60  0000 C CNN
-	1    9200 3350
+P 9200 3200
+F 0 "#PWR08" H 9200 3200 30  0001 C CNN
+F 1 "GND" H 9200 3130 30  0001 C CNN
+F 2 "" H 9200 3200 60  0000 C CNN
+F 3 "" H 9200 3200 60  0000 C CNN
+	1    9200 3200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -330,7 +330,6 @@ NoConn ~ 5100 3300
 NoConn ~ 5100 3400
 NoConn ~ 5100 3500
 NoConn ~ 5100 3600
-NoConn ~ 8950 3300
 NoConn ~ 8950 3400
 NoConn ~ 8950 3500
 NoConn ~ 8950 3600
@@ -508,8 +507,6 @@ Wire Wire Line
 Wire Wire Line
 	4100 3400 4100 3250
 Wire Wire Line
-	9200 3000 9200 3350
-Wire Wire Line
 	8150 3300 8050 3300
 Wire Wire Line
 	8050 3300 8050 3100
@@ -622,7 +619,24 @@ Wire Wire Line
 Wire Wire Line
 	7350 5450 7350 4100
 Connection ~ 7350 4100
+$Comp
+L +3.3V #PWR?
+U 1 1 5190FE40
+P 9400 3100
+F 0 "#PWR?" H 9400 3060 30  0001 C CNN
+F 1 "+3.3V" H 9400 3210 30  0000 C CNN
+F 2 "" H 9400 3100 60  0000 C CNN
+F 3 "" H 9400 3100 60  0000 C CNN
+	1    9400 3100
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	8950 3200 9200 3200
-Connection ~ 9200 3200
+	9400 3100 9400 3300
+Wire Wire Line
+	9400 3300 8950 3300
+Wire Wire Line
+	9200 3000 9200 3200
+Wire Wire Line
+	8950 3200 8950 3000
+Connection ~ 8950 3000
 $EndSCHEMATC
