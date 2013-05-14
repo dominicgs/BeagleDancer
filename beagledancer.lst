@@ -1,11 +1,11 @@
-eeschema (2013-mar-13)-testing  >> Creation date: Tue 14 May 2013 02:03:39 PM EST
+eeschema (2013-mar-13)-testing  >> Creation date: Tue 14 May 2013 02:18:04 PM EST
 #Cmp ( order = Reference )
 | C1         1uf         ; Taiyo Yuden ; LMK107B7105KA-T; CAP CER 1UF 10V 10% X7R 0603;             
 | C2         0.1uf       ; Murata Electronics North America; GRM188R71C104KA01D; CAP CER 0.1UF 16V 10% X7R 0603;             
 | C3         18pf        ; TDK Corporation; C1608C0G1H180J080AA; CAP CER 18PF 50V 5% NP0 0603;             
 | C4         18pf        ; TDK Corporation; C1608C0G1H180J080AA; CAP CER 18PF 50V 5% NP0 0603;             
 | C5         1uf         ; Taiyo Yuden ; LMK107B7105KA-T; CAP CER 1UF 10V 10% X7R 0603;             
-| J1         USB-MICRO-B ;             ;             ;             ;             
+| J1         USB-MICRO-B ; FCI         ; 10103594-0001LF; CONN RCPT STD MICRO USB TYPE B;             
 | JP1        JUMPER      ;             ;             ;             ;             
 | P9         BeagleBone  ;             ;             ;             ;             
 | R1         33          ; Stackpole Electronics Inc; RMCF0603JT330R; RES 330 OHM 1/10W 5% 0603;             
@@ -20,7 +20,7 @@ eeschema (2013-mar-13)-testing  >> Creation date: Tue 14 May 2013 02:03:39 PM ES
 | 0.1uf        C2        ; Murata Electronics North America; GRM188R71C104KA01D; CAP CER 0.1UF 16V 10% X7R 0603;             
 | 1uf          C1        ; Taiyo Yuden ; LMK107B7105KA-T; CAP CER 1UF 10V 10% X7R 0603;             
 | 1uf          C5        ; Taiyo Yuden ; LMK107B7105KA-T; CAP CER 1UF 10V 10% X7R 0603;             
-| USB-MICRO-B  J1        ;             ;             ;             ;             
+| USB-MICRO-B  J1        ; FCI         ; 10103594-0001LF; CONN RCPT STD MICRO USB TYPE B;             
 | JUMPER       JP1       ;             ;             ;             ;             
 | BeagleBone   P9        ;             ;             ;             ;             
 | 33           R1        ; Stackpole Electronics Inc; RMCF0603JT330R; RES 330 OHM 1/10W 5% 0603;             

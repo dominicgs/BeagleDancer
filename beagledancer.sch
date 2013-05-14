@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 14 May 2013 02:03:41 PM EST
+EESchema Schematic File Version 2  date Tue 14 May 2013 02:17:53 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -469,6 +469,9 @@ F 0 "J1" H 2300 4150 60  0000 C CNN
 F 1 "USB-MICRO-B" H 2300 3500 60  0000 C CNN
 F 2 "" H 2300 3850 60  0000 C CNN
 F 3 "" H 2300 3850 60  0000 C CNN
+F 4 "FCI" H 2300 3850 60  0001 C CNN "Manufacturer"
+F 5 "10103594-0001LF" H 2300 3850 60  0001 C CNN "Part Number"
+F 6 "CONN RCPT STD MICRO USB TYPE B" H 2300 3850 60  0001 C CNN "Description"
 	1    2300 3850
 	-1   0    0    -1  
 $EndComp
