@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 13 May 2013 04:59:54 AM EST
+EESchema Schematic File Version 2  date Tue 14 May 2013 02:03:41 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "BeagleDancer"
-Date "12 may 2013"
+Date "14 may 2013"
 Rev ""
 Comp ""
 Comment1 "Copyright 2013 Dominic Spill"
@@ -53,6 +53,9 @@ F 0 "C3" H 4250 2700 40  0000 L CNN
 F 1 "18pf" H 4256 2515 40  0000 L CNN
 F 2 "~" H 4288 2450 30  0000 C CNN
 F 3 "~" H 4250 2600 60  0000 C CNN
+F 4 "TDK Corporation" H 4250 2600 60  0001 C CNN "Manufacturer"
+F 5 "C1608C0G1H180J080AA" H 4250 2600 60  0001 C CNN "Part Number"
+F 6 "CAP CER 18PF 50V 5% NP0 0603" H 4250 2600 60  0001 C CNN "Description"
 	1    4250 2600
 	1    0    0    -1  
 $EndComp
@@ -64,6 +67,9 @@ F 0 "C2" H 7450 3400 40  0000 L CNN
 F 1 "0.1uf" H 7456 3215 40  0000 L CNN
 F 2 "~" H 7488 3150 30  0000 C CNN
 F 3 "~" H 7450 3300 60  0000 C CNN
+F 4 "Murata Electronics North America" H 7450 3300 60  0001 C CNN "Manufacturer"
+F 5 "GRM188R71C104KA01D" H 7450 3300 60  0001 C CNN "Part Number"
+F 6 "CAP CER 0.1UF 16V 10% X7R 0603" H 7450 3300 60  0001 C CNN "Description"
 	1    7450 3300
 	1    0    0    -1  
 $EndComp
@@ -75,6 +81,9 @@ F 0 "C1" H 4100 3700 40  0000 L CNN
 F 1 "1uf" H 4106 3515 40  0000 L CNN
 F 2 "~" H 4138 3450 30  0000 C CNN
 F 3 "~" H 4100 3600 60  0000 C CNN
+F 4 "Taiyo Yuden" H 4100 3600 60  0001 C CNN "Manufacturer"
+F 5 "LMK107B7105KA-T" H 4100 3600 60  0001 C CNN "Part Number"
+F 6 "CAP CER 1UF 10V 10% X7R 0603" H 4100 3600 60  0001 C CNN "Description"
 	1    4100 3600
 	1    0    0    -1  
 $EndComp
@@ -86,6 +95,9 @@ F 0 "C5" H 3450 3350 40  0000 L CNN
 F 1 "1uf" H 3456 3165 40  0000 L CNN
 F 2 "~" H 3488 3100 30  0000 C CNN
 F 3 "~" H 3450 3250 60  0000 C CNN
+F 4 "Taiyo Yuden" H 3450 3250 60  0001 C CNN "Manufacturer"
+F 5 "LMK107B7105KA-T" H 3450 3250 60  0001 C CNN "Part Number"
+F 6 "CAP CER 1UF 10V 10% X7R 0603" H 3450 3250 60  0001 C CNN "Description"
 	1    3450 3250
 	1    0    0    -1  
 $EndComp
@@ -97,6 +109,9 @@ F 0 "C4" H 5100 2700 40  0000 L CNN
 F 1 "18pf" H 5106 2515 40  0000 L CNN
 F 2 "~" H 5138 2450 30  0000 C CNN
 F 3 "~" H 5100 2600 60  0000 C CNN
+F 4 "TDK Corporation" H 5100 2600 60  0001 C CNN "Manufacturer"
+F 5 "C1608C0G1H180J080AA" H 5100 2600 60  0001 C CNN "Part Number"
+F 6 "CAP CER 18PF 50V 5% NP0 0603" H 5100 2600 60  0001 C CNN "Description"
 	1    5100 2600
 	1    0    0    -1  
 $EndComp
@@ -108,6 +123,9 @@ F 0 "R1" V 3480 3750 40  0000 C CNN
 F 1 "33" V 3407 3751 40  0000 C CNN
 F 2 "~" V 3330 3750 30  0000 C CNN
 F 3 "~" H 3400 3750 30  0000 C CNN
+F 4 "Stackpole Electronics Inc" H 3400 3750 60  0001 C CNN "Manufacturer"
+F 5 "RMCF0603JT330R" H 3400 3750 60  0001 C CNN "Part Number"
+F 6 "RES 330 OHM 1/10W 5% 0603" H 3400 3750 60  0001 C CNN "Description"
 	1    3400 3750
 	0    1    1    0   
 $EndComp
@@ -119,6 +137,9 @@ F 0 "R2" V 3480 3950 40  0000 C CNN
 F 1 "33" V 3407 3951 40  0000 C CNN
 F 2 "~" V 3330 3950 30  0000 C CNN
 F 3 "~" H 3400 3950 30  0000 C CNN
+F 4 "Stackpole Electronics Inc" H 3400 3950 60  0001 C CNN "Manufacturer"
+F 5 "RMCF0603JT330R" H 3400 3950 60  0001 C CNN "Part Number"
+F 6 "RES 330 OHM 1/10W 5% 0603" H 3400 3950 60  0001 C CNN "Description"
 	1    3400 3950
 	0    1    1    0   
 $EndComp
@@ -145,6 +166,9 @@ F 0 "U1" H 5950 4050 60  0000 C CNN
 F 1 "MAX3421" H 5950 3300 60  0000 C CNN
 F 2 "~" H 5950 3300 60  0000 C CNN
 F 3 "~" H 5950 3300 60  0000 C CNN
+F 4 "Maxim Integrated" H 5950 3750 60  0001 C CNN "Manufacturer"
+F 5 "MAX3421EEHJ+" H 5950 3750 60  0001 C CNN "Part Number"
+F 6 "IC USB PERIPH/HOST CNTRL 32TQFP" H 5950 3750 60  0001 C CNN "Description"
 	1    5950 3750
 	-1   0    0    -1  
 $EndComp
@@ -472,6 +496,9 @@ F 0 "X1" H 4700 2350 60  0000 C CNN
 F 1 "XTAL4PIN" H 4700 2050 60  0000 C CNN
 F 2 "" H 4700 2200 60  0000 C CNN
 F 3 "" H 4700 2200 60  0000 C CNN
+F 4 "TXC CORPORATION" H 4700 2200 60  0001 C CNN "Manufacturer"
+F 5 "7B-12.000MAAJ-T" H 4700 2200 60  0001 C CNN "Part Number"
+F 6 "CRYSTAL 12.000MHZ 18PF SMD" H 4700 2200 60  0001 C CNN "Description"
 	1    4700 2200
 	1    0    0    -1  
 $EndComp

@@ -1,32 +1,32 @@
-eeschema (2013-mar-13)-testing  >> Creation date: Sun 12 May 2013 03:00:14 AM EST
+eeschema (2013-mar-13)-testing  >> Creation date: Tue 14 May 2013 02:03:39 PM EST
 #Cmp ( order = Reference )
-| C1         1uf         
-| C2         0.1uf       
-| C3         18pf        
-| C4         18pf        
-| C5         1uf         
-| J1         USB-MICRO-B 
-| JP1        JUMPER      
-| P9         BeagleBone  
-| R1         33          
-| R2         33          
-| U1         MAX3421     
-| X1         XTAL4PIN    
+| C1         1uf         ; Taiyo Yuden ; LMK107B7105KA-T; CAP CER 1UF 10V 10% X7R 0603;             
+| C2         0.1uf       ; Murata Electronics North America; GRM188R71C104KA01D; CAP CER 0.1UF 16V 10% X7R 0603;             
+| C3         18pf        ; TDK Corporation; C1608C0G1H180J080AA; CAP CER 18PF 50V 5% NP0 0603;             
+| C4         18pf        ; TDK Corporation; C1608C0G1H180J080AA; CAP CER 18PF 50V 5% NP0 0603;             
+| C5         1uf         ; Taiyo Yuden ; LMK107B7105KA-T; CAP CER 1UF 10V 10% X7R 0603;             
+| J1         USB-MICRO-B ;             ;             ;             ;             
+| JP1        JUMPER      ;             ;             ;             ;             
+| P9         BeagleBone  ;             ;             ;             ;             
+| R1         33          ; Stackpole Electronics Inc; RMCF0603JT330R; RES 330 OHM 1/10W 5% 0603;             
+| R2         33          ; Stackpole Electronics Inc; RMCF0603JT330R; RES 330 OHM 1/10W 5% 0603;             
+| U1         MAX3421     ; Maxim Integrated; MAX3421EEHJ+; IC USB PERIPH/HOST CNTRL 32TQFP;             
+| X1         XTAL4PIN    ; TXC CORPORATION; 7B-12.000MAAJ-T; CRYSTAL 12.000MHZ 18PF SMD;             
 #End Cmp
 
 #Cmp ( order = Value )
-| 18pf         C3        
-| 18pf         C4        
-| 0.1uf        C2        
-| 1uf          C1        
-| 1uf          C5        
-| USB-MICRO-B  J1        
-| JUMPER       JP1       
-| BeagleBone   P9        
-| 33           R1        
-| 33           R2        
-| MAX3421      U1        
-| XTAL4PIN     X1        
+| 18pf         C3        ; TDK Corporation; C1608C0G1H180J080AA; CAP CER 18PF 50V 5% NP0 0603;             
+| 18pf         C4        ; TDK Corporation; C1608C0G1H180J080AA; CAP CER 18PF 50V 5% NP0 0603;             
+| 0.1uf        C2        ; Murata Electronics North America; GRM188R71C104KA01D; CAP CER 0.1UF 16V 10% X7R 0603;             
+| 1uf          C1        ; Taiyo Yuden ; LMK107B7105KA-T; CAP CER 1UF 10V 10% X7R 0603;             
+| 1uf          C5        ; Taiyo Yuden ; LMK107B7105KA-T; CAP CER 1UF 10V 10% X7R 0603;             
+| USB-MICRO-B  J1        ;             ;             ;             ;             
+| JUMPER       JP1       ;             ;             ;             ;             
+| BeagleBone   P9        ;             ;             ;             ;             
+| 33           R1        ; Stackpole Electronics Inc; RMCF0603JT330R; RES 330 OHM 1/10W 5% 0603;             
+| 33           R2        ; Stackpole Electronics Inc; RMCF0603JT330R; RES 330 OHM 1/10W 5% 0603;             
+| MAX3421      U1        ; Maxim Integrated; MAX3421EEHJ+; IC USB PERIPH/HOST CNTRL 32TQFP;             
+| XTAL4PIN     X1        ; TXC CORPORATION; 7B-12.000MAAJ-T; CRYSTAL 12.000MHZ 18PF SMD;             
 #End Cmp
 
 #End List
