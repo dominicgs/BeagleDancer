@@ -1,0 +1,91 @@
+/*
+ *
+ * Device tree overlay for a BeagleDancer
+ *
+ * It is connected to SPI0 and uses four additional GPIO pins:
+ * USB OTG detect, reset, interrupt and GPX. 
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 2 as
+ * published by the Free Software Foundation.
+ */
+
+/dts-v1/;
+/plugin/;
+
+/*
+ * Pin assignments
+ *
+ * P9.22 SPI0_CLK
+ * P9.21 SPI0_D0
+ * P9.18 SPI0_D1
+ * P9.17 SP0_CS0
+ * P9.11 GPIO 0_30 (USB OTG ID)
+ * P9.13 GPIO 0_31 (Interrupt)
+ * P9.15 GPIO 1_16 (GPX)
+ * P9.23 GPIO 1_17 (reset)
+ *
+ */
+
+/ {
+	compatible = "ti,beaglebone", "ti,beaglebone-black";
+	part-number = "BB-BONE-BEAGLEDANCER";
+	version = "00A0";
+
+	fragment@0 {
+		target = <&am33xx_pinmux>;
+		__overlay__ {
+		spi0_pinmux: spi0_pins  {
+				pinctrl-single,pins = <
+					0x150 0x30	/* spi0_clk, INPUT_PULLUP  | MODE0 */
+					0x154 0x30	/* spi0_d0,  INPUT_PULLUP  | MODE0 */
+					0x158 0x10	/* spi0_d1,  OUTPUT_PULLUP | MODE0 */
+					0x15C 0x10	/* spi0_cs0, OUTPUT_PULLUP | MODE0 */
+					>;
+			};
+		};
+	};
+
+	fragment@1 {
+		target = <&spi0>;
+		__overlay__ {
+			status = "okay";
+			pinctrl-names = "default";
+			pinctrl-0 = <&spi0_pinmux>;
+			beagledancer {
+				compatible = "spidev";
+				reg = <0>;
+				spi-max-frequency = <16000000>;
+				spi-cpol;
+				spi-cpha;
+			};
+		};
+	};
+
+	fragment@2 {
+		target = <&am33xx_pinmux>;
+		__overlay__ {
+		bd_ctrl_pinmux: bd_ctrl_pins {
+				pinctrl-single,pins = <
+					0x070 0x37 	/* otg gpio0_30, INPUT_PULLUP | MODE7 */
+                    0x074 0x37 	/* int gpio0_31, INPUT_PULLUP | MODE7 */
+					0x040 0x37 	/* gpx gpio1_16, INPUT_PULLUP | MODE7 */
+                    0x044 0x07 	/* rst gpio1_17, OUTPUT_PULLDOWN | MODE7 */
+					>;
+			};
+		};
+	};
+
+	
+	fragment@3 {
+		target = <&ocp>;
+		__overlay__ {
+		test_helper: helper {
+				compatible = "bone-pinmux-helper";
+				pinctrl-names = "default";
+				pinctrl-0 = <&bd_ctrl_pinmux>;
+				status = "okay";
+			};
+		};
+	};
+};
