@@ -42,4 +42,5 @@ Then reboot the BeagleBone so that the am335x-boneblack setting take effect.
 Once rebooted, run the following as root:
  $ echo "cape-beagledancer " > /sys/devices/bone_capemgr.9/slots
 
-You should now see "spidev1.0" in /dev.
+You should now see "spidev1.0" in /dev.  This has been tested on debian but the
+process should be similar for other distributions.
