@@ -38,20 +38,20 @@ The next step is to download and build the SPI-Py module (GPL), it can be found
 at https://github.com/lthiery/SPI-Py
 
 Build instructions are as follows:
- $ git clone git://github.com/lthiery/SPI-Py.git
- $ cd SPI-Py
- $ python setup.py build
- $ sudo python setup.py install
+- $ git clone git://github.com/lthiery/SPI-Py.git
+- $ cd SPI-Py
+- $ python setup.py build
+- $ sudo python setup.py install
 
 Finally, we need to reset the MAX3421 chip using GPIO1_17.  As root:
- $ echo "48" > /sys/class/gpio/export
- $ echo "49" > /sys/class/gpio/export
- $ echo "30" > /sys/class/gpio/export
- $ echo "31" > /sys/class/gpio/export
+- $ echo "48" > /sys/class/gpio/export
+- $ echo "49" > /sys/class/gpio/export
+- $ echo "30" > /sys/class/gpio/export
+- $ echo "31" > /sys/class/gpio/export
 
- $ echo "out" > direction
- $ echo "0" > value
- $ echo "1" > value
+- $ echo "out" > direction
+- $ echo "0" > value
+- $ echo "1" > value
 
 Licensing, etc
 --------------
