@@ -48,10 +48,9 @@ Finally, we need to reset the MAX3421 chip using GPIO1_17.  As root:
 - $ echo "49" > /sys/class/gpio/export
 - $ echo "30" > /sys/class/gpio/export
 - $ echo "31" > /sys/class/gpio/export
-
-- $ echo "out" > direction
-- $ echo "0" > value
-- $ echo "1" > value
+- $ echo "out" > /sys/class/gpio/gpio49/direction
+- $ echo "0" > /sys/class/gpio/gpio49/value
+- $ echo "1" > /sys/class/gpio/gpio49/value
 
 Licensing, etc
 --------------
