@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 14 May 2013 02:17:53 PM EST
+EESchema Schematic File Version 2
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -491,33 +491,17 @@ Wire Wire Line
 	3750 3750 3750 4200
 Wire Wire Line
 	3750 4200 5100 4200
-$Comp
-L GSG-XTAL4PIN X1
-U 1 1 518DB545
-P 4700 2200
-F 0 "X1" H 4700 2350 60  0000 C CNN
-F 1 "XTAL4PIN" H 4700 2050 60  0000 C CNN
-F 2 "" H 4700 2200 60  0000 C CNN
-F 3 "" H 4700 2200 60  0000 C CNN
-F 4 "TXC CORPORATION" H 4700 2200 60  0001 C CNN "Manufacturer"
-F 5 "7B-12.000MAAJ-T" H 4700 2200 60  0001 C CNN "Part Number"
-F 6 "CRYSTAL 12.000MHZ 18PF SMD" H 4700 2200 60  0001 C CNN "Description"
-	1    4700 2200
-	1    0    0    -1  
-$EndComp
-NoConn ~ 4600 2500
-NoConn ~ 4800 2500
 Text GLabel 2550 3950 2    60   Input ~ 0
 USB_ID
 Text GLabel 8150 3700 0    60   Input ~ 0
 USB_ID
-Text GLabel 8150 3800 0    60   Input ~ 0
+Text GLabel 8150 3900 0    60   Input ~ 0
 INT
 Text GLabel 5100 4400 0    60   Input ~ 0
 INT
 Text GLabel 5100 4500 0    60   Input ~ 0
 GPX
-Text GLabel 8150 3900 0    60   Input ~ 0
+Text GLabel 8150 3800 0    60   Input ~ 0
 GPX
 Text Label 4450 4000 0    60   ~ 0
 VBCOMP
@@ -533,4 +517,15 @@ Text Label 4600 4200 0    60   ~ 0
 D-
 Text Label 4600 4100 0    60   ~ 0
 D+
+$Comp
+L CRYSTAL X1
+U 1 1 51D39898
+P 4700 2200
+F 0 "X1" H 4700 2350 60  0000 C CNN
+F 1 "CRYSTAL" H 4700 2050 60  0000 C CNN
+F 2 "" H 4700 2200 60  0000 C CNN
+F 3 "" H 4700 2200 60  0000 C CNN
+	1    4700 2200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

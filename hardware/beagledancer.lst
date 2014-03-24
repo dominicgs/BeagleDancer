@@ -11,7 +11,7 @@ eeschema (2013-mar-13)-testing  >> Creation date: Tue 14 May 2013 02:18:04 PM ES
 | R1         33          ; Stackpole Electronics Inc; RMCF0603JT330R; RES 330 OHM 1/10W 5% 0603;             
 | R2         33          ; Stackpole Electronics Inc; RMCF0603JT330R; RES 330 OHM 1/10W 5% 0603;             
 | U1         MAX3421     ; Maxim Integrated; MAX3421EEHJ+; IC USB PERIPH/HOST CNTRL 32TQFP;             
-| X1         XTAL4PIN    ; TXC CORPORATION; 7B-12.000MAAJ-T; CRYSTAL 12.000MHZ 18PF SMD;             
+| X1         CRYSTAL     ; Abracon Corporation; 535-10218-1-ND; CRYSTAL 12.000MHZ 18PF SMD;             
 #End Cmp
 
 #Cmp ( order = Value )
@@ -26,7 +26,7 @@ eeschema (2013-mar-13)-testing  >> Creation date: Tue 14 May 2013 02:18:04 PM ES
 | 33           R1        ; Stackpole Electronics Inc; RMCF0603JT330R; RES 330 OHM 1/10W 5% 0603;             
 | 33           R2        ; Stackpole Electronics Inc; RMCF0603JT330R; RES 330 OHM 1/10W 5% 0603;             
 | MAX3421      U1        ; Maxim Integrated; MAX3421EEHJ+; IC USB PERIPH/HOST CNTRL 32TQFP;             
-| XTAL4PIN     X1        ; TXC CORPORATION; 7B-12.000MAAJ-T; CRYSTAL 12.000MHZ 18PF SMD;             
+| CRYSTAL      X1        ; Abracon Corporation; 535-10218-1-ND; CRYSTAL 12.000MHZ 18PF SMD;             
 #End Cmp
 
 #End List

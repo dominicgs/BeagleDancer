@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Sun 12 May 2013 01:20:26 PM EST
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Wed 03 Jul 2013 03:03:05 PM EST
 
 BeginCmp
 TimeStamp = /518C698C;
@@ -78,10 +78,10 @@ IdModule  = MAX3421;
 EndCmp
 
 BeginCmp
-TimeStamp = /518DB545;
+TimeStamp = /51D39898;
 Reference = X1;
-ValeurCmp = XTAL4PIN;
-IdModule  = GSG-XTAL3.2x2.5mm;
+ValeurCmp = CRYSTAL;
+IdModule  = HC49-US;
 EndCmp
 
 EndListe
